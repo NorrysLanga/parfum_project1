@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	}
+.layout{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background-color: #f2ebe3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+
+}
+.content{
+	padding: 15px;
+}
+.card{
+	width: 375px;
+	margin: 10px;
+	align-items: center;
+	background-color: white;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+img{
+	width: 100%;
+	height: 270px;
+}
+.judul{
+	font-family: sans-serif;
+	margin: 10px 0 10px 0;
+	opacity: 0.8;
+	font-weight: 500;
+
+}
+.gab{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 700;
+
+}
+.paragraf{
+	font-size:14px;
+	margin: 5px;
+}
+.ukur{
+	color: #3d8067;
+	margin: 10px 0 10px 0;
+}
+.button{
+	width: 100%;
+	height: 40px;
+	background-color:#3d8067;
+	color: white;
+	border-radius: 10px;
+}
